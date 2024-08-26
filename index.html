@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Booking Confirmation Email Template </title>
+  <!-- Font Awesome CDN -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <style>
+    /* General Styles */
+    body {
+      margin: 0;
+      background-color: #f4f4f4;
+      font-family: Arial, sans-serif;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    h2, h3 {
+      color: #333333;
+      margin-bottom: 10px;
+    }
+
+    p, li {
+      color: #666666;
+      font-size: 14px;
+      line-height: 1.6;
+      margin: 5px 0;
+    }
+
+    /* Section Styles */
+    .section {
+      padding: 15px;
+      background-color: #ffffff;
+      margin: 0;
+      border-bottom: 1px solid #cccccc;
+    }
+
+    /* List Item Styles */
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    ul li {
+      margin: 8px 0;
+      display: flex;
+      align-items: center;
+    }
+
+    ul li i {
+      margin-right: 10px;
+      color: #ff0000;
+    }
+
+    /* Strong Tag Styles */
+    strong {
+      margin-right: 8px;
+    }
+
+    /* Header Styles */
+    .header {
+      padding: 20px 0;
+      background-color: #000000;
+      text-align: center;
+    }
+
+    /* Contact Info Styles */
+    .contact-info {
+      background-color: #ff0000;
+      color: #ffffff;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .contact-info a {
+      color: #ffffff;
+      text-decoration: none;
+    }
+
+    .contact-info img {
+      vertical-align: middle;
+      margin-right: 8px;
+    }
+
+    .contact-info i {
+      margin-right: 8px;
+      color: #ffffff;
+    }
+
+    /* Booking Header */
+    .booking-header h2 {
+      color: #28a745;
+      margin: 0;
+    }
+
+    /* Center Alignment */
+    .email-container {
+      max-width: 600px;
+      margin: 0 auto;
+      background-color: #ffffff;
+    }
+
+    /* Your Fare Table Styles */
+    .fare-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+
+    .fare-table td {
+      padding: 8px;
+      border-bottom: 1px solid #dddddd;
+    }
+
+    .fare-table td.label {
+      font-weight: bold;
+      text-align: left;
+    }
+
+    .fare-table td.value {
+      text-align: right;
+    }
+
+    /* Footer Styles */
+    .footer {
+      padding: 15px;
+      background-color: #494949;
+      text-align: center;
+      color: #ffffff;
+    }
+
+    .footer a {
+      color: #ffffff;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+    .footer i {
+      margin-right: 8px;
+    }
+
+    .footer .social-icons i {
+      margin: 0 5px;
+      font-size: 18px;
+    }
+
+    .footer .print-button {
+      display: block;
+      margin: 15px 0;
+      color: #ffffff;
+      background-color: #000000;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+
+<body>
+  <table class="email-container">
+    <tr>
+      <td align="center">
+        <table width="100%" border="0" cellpadding="0" cellspacing="0">
+          <!-- Header -->
+          <tr>
+            <td class="header">
+              <img src="https://airportcarserviceatlanta.com/wp-content/uploads/2024/08/Logo-PNG-04-1-2.png" alt="Logo" style="max-width: 100%; height: auto;" />
+            </td>
+          </tr>
+          <!-- Contact Information -->
+          <tr>
+            <td class="contact-info">
+              <div>
+                <i class="fab fa-whatsapp"></i>
+                <a href="tel:+1(404)964-5648">+1(404)964-5648</a>
+              </div>
+              <div>
+                <i class="fas fa-envelope"></i>
+                <a href="mailto:booking@airportcarserviceatlanta.com">booking@airportcarserviceatlanta.com</a>
+              </div>
+            </td>
+          </tr>
+          <!-- Booking Header -->
+          <tr>
+            <td class="section booking-header">
+              <h2>Booking ID: 1699331832</h2>
+              <p>Thanks for choosing AIRPORT TRANSFER ATLANTA,</p>
+              <p>Booking date: 12 Mar, 2022</p>
+            </td>
+          </tr>
+          <!-- Booking Details -->
+          <tr>
+            <td class="section">
+              <h3>Your Booking Details</h3>
+              <ul>
+                <li><i class="fas fa-map-marker-alt"></i> <strong>Trip:</strong> Oneway Trip</li>
+                <li><i class="fas fa-plane-departure"></i> <strong>From:</strong> Maynard H. Jackson Jr. International Terminal, Atlanta, GA, USA</li>
+                <li><i class="fas fa-hotel"></i> <strong>To:</strong> Renaissance Concourse Atlanta Airport Hotel, Atlanta, GA, USA</li>
+                <li><i class="fas fa-car"></i> <strong>Car:</strong> Lincoln MKT, Cadillac XTS, Chrysler 300, Mercedes Benz E-Class or Similar</li>
+                <li><i class="fas fa-users"></i> <strong>Total passengers:</strong> 2</li>
+                <li><i class="fas fa-calendar-alt"></i> <strong>Pickup Date:</strong> 13 Mar, 2022</li>
+                <li><i class="fas fa-clock"></i> <strong>Pickup Time:</strong> 11:50 PM</li>
+              </ul>
+            </td>
+          </tr>
+          <!-- Traveller Details -->
+          <tr>
+            <td class="section">
+              <h3>Traveller Details</h3>
+              <ul>
+                <li><i class="fas fa-user"></i> <strong>Name:</strong> Kwaku Duah</li>
+                <li><i class="fas fa-phone"></i> <strong>Phone:</strong> +1-4705803737</li>
+                <li><i class="fas fa-plane"></i> <strong>Flight Number:</strong> TEST</li>
+                <li><i class="fas fa-envelope"></i> <strong>Email:</strong> noorulhudaupsc@gmail.com</li>
+                <li><i class="fas fa-comment"></i> <strong>Comments:</strong> hi Test</li>
+              </ul>
+            </td>
+          </tr>
+          <!-- Fare Details -->
+          <tr>
+            <td class="section">
+              <h3>Your Fare</h3>
+              <table class="fare-table">
+                <tr>
+                  <td class="label">Payment Method:</td>
+                  <td class="value">Paypal / Stripe</td>
+                </tr>
+                <tr>
+                  <td class="label">Total Fare:</td>
+                  <td class="value">$20 USD</td>
+                </tr>
+                <tr>
+                  <td class="label">You Paid:</td>
+                  <td class="value">$20 USD</td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!-- Footer -->
+          <tr>
+            <td class="footer">
+              <a href="javascript:window.print()" class="print-button">
+                <i class="fas fa-print"></i> Print Booking Details
+              </a>
+              <p style="font-size: 16px; color: white;">Contact us: <a href="mailto:booking@airportcarserviceatlanta.com">booking@airportcarserviceatlanta.com</a> | <a href="tel:+1(404)964-5648">+1(404)964-5648</a></p>
+              <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+
+</html>
